@@ -19,7 +19,7 @@
 
   /* Header bg transparents */
   #header.header-transparent {
-    /* background: transparent; */
+     background: transparent;
   }
   
   /* Header change lors du scroll */
