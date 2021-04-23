@@ -595,12 +595,12 @@ pre code {
 
 .row {
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  /* display: -ms-flexbox;*/
+  /* display: flex;  */
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .no-gutters {
@@ -623,8 +623,8 @@ pre code {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .col {

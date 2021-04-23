@@ -4,7 +4,7 @@
 body{
     margin: 0;
     padding: 0;
-    border: solid rgb(0, 255, 64) 3px;
+    /* border: solid rgb(0, 255, 64) 3px; */
 }
 
 
@@ -34,7 +34,7 @@ p{
 
 /* CAROUSEL CSS */
 .carousel_div{
-    background-color: rgb(187, 255, 0);
+    /* background-color: rgb(255, 0, 0); */
 }
 
 /* FIN CAROUSEL CSS*/
