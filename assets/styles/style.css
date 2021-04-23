@@ -59,6 +59,66 @@ p{
     height: 100vh;
 }
 
+#id_team1{
+    /* background-color: red; */
+    height: 100vh;
+    background-image: url("../images/team/peterano.jpg");
+    /* background-attachment: fixed; */
+    background-size: cover;
+    transition: all 0.5s;
+}
+
+#id_team2{
+    /* background-color: red; */
+    height: 100vh;
+    background-image: url("../images/team/ie.jpg");
+    /* background-attachment: fixed; */
+    background-size: cover;
+    
+}
+
+#id_team3{
+    /* background-color: red; */
+    height: 100vh;
+    background-image: url("../images/team/poetai.jpg");
+    /* background-attachment: fixed; */
+    background-size: cover;
+    
+}
+
+#id_team4{
+    /* background-color: red; */
+    height: 100vh;
+    background-image: url("../images/team/raoulx.jpg");
+    /* background-attachment: fixed; */
+    background-size: cover;
+    
+}
+
+#id_team1:hover{
+    background: none;
+    background-color: red;
+    
+}
+
+#id_team2:hover{
+    background: none;
+    background-color: rgb(238, 255, 0);
+    
+}
+
+#id_team3:hover{
+    background: none;
+    background-color: rgb(21, 255, 0);
+    
+}
+
+#id_team4:hover{
+    background: none;
+    background-color: rgb(0, 0, 0);
+    
+}
+
 
 /*--------------------------------------------------------------
 # FIN SECTION 2
@@ -72,7 +132,7 @@ p{
 
 #footer{
     background-color: rgb(84, 121, 0);
-    height: 100vh;
+    height: 60vh;
 }
 
 
