@@ -1,7 +1,7 @@
-.Carousel_div{
-    margin: 0;
-    padding:0;
-}
+
+
+
+
 *,
 *:before,
 *:after {
@@ -138,6 +138,7 @@ a {
     width: 100%;
     max-width: 600px;
     line-height: 1;
+    font-family: 'Stick', sans-serif;
 }
 
 .slider .item .content .wrap .letter {
@@ -196,10 +197,4 @@ a {
 .slider .item:not(.is-active) {
     opacity: 0;
     pointer-events: none;
-}
-
-
-
-.slider{
-    border: solid red 3px;
 }

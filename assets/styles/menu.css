@@ -13,6 +13,7 @@
     z-index: 997;
     transition: all 0.5s;
     padding: 15px 0;
+    
     /* background: rgba(103, 176, 209, 0.8); */
   }
   
@@ -20,12 +21,15 @@
   /* Header bg transparents */
   #header.header-transparent {
      background: transparent;
+
+     
   }
   
   /* Header change lors du scroll */
   #header.header-scrolled {
     background: rgb(0, 0, 0);
     padding: 0; 
+    
   }
   
   /* Header logo titre */
@@ -37,6 +41,7 @@
     letter-spacing: 1px;
     font-family: 'Stick', sans-serif;
     text-transform: uppercase;
+    
   }
   #header .logo h1 a, #header .logo h1 a:hover {
     color: #ffe600;
@@ -70,25 +75,28 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
 
 .nav-menu > ul > li {
 position: relative;
 white-space: nowrap;
 float: left;
-background: rgba(163, 160, 0, 0.968)
+
+background: rgba(0, 0, 0, 0.749)
 }
 
 .nav-menu a {
     display: block;
     position: relative;
-    color: #eeff00;
+    color: #ffffff;
     padding: 20px 15px;
     transition: 0.3s;
     font-size: 13px;
     font-family: 'Akaya Kanadaka', cursive;
     text-transform: uppercase;
     font-weight: 500;
+    
 }
 
 
@@ -119,7 +127,7 @@ background: rgba(163, 160, 0, 0.968)
     color: rgb(255, 255, 255);
   }
 .header-scrolled .nav-menu a:hover, .header-scrolled .nav-menu .active > a, .header-scrolled .nav-menu li:hover > a {
-background: rgba(255, 255, 255, 0.2);
+background: rgba(255, 234, 0, 0.831);
 }
 
 /* Menu déroulant css */
@@ -154,7 +162,7 @@ visibility: visible;
     color: #25607a;
 }
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-    color: #67b0d1;
+    color: #003046;
 }
 
 /* Icone menu déroulant */

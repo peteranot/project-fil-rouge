@@ -1,0 +1,67 @@
+/*--------------------------------------------------------------
+# SECTION 2 - SERVICES CSS
+--------------------------------------------------------------*/
+
+#services{
+    /* background-color: rgb(255, 255, 255); */
+    background-image: url('../images/services/bg.jpg');
+    /* background-size: cover; */
+    background-attachment: fixed;
+    padding: 50px;
+
+    font-family: 'New Tegomin', serif;
+}
+
+.carousel-inner img{
+    height: 50vh;
+    
+}
+
+.card p{
+    font-family: 'New Tegomin', serif;
+}
+
+.carousel{
+    background-color:rgb(0, 174, 255);
+    font-size: 20px;
+    padding-top: 5px;
+    
+}
+.carousel:hover .card-body{
+    display:inherit;
+}
+
+.card-body{
+    display:none
+}
+
+
+.card-title ,.card-body{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(70, 207, 228);
+}
+
+.services_title{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.btnPlusInfos{
+    background: green;
+    color: black
+}
+
+.btnPlusInfos:hover{
+    background: rgb(0, 87, 0);
+    color: black
+}
+
+.card-body p{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*--------------------------------------------------------------
+# FIN SECTION 2
+--------------------------------------------------------------*/

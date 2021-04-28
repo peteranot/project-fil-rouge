@@ -1,17 +1,14 @@
 
 /*  */
 
-body{
-    margin: 0;
-    padding: 0;
-    /* border: solid rgb(0, 255, 64) 3px; */
-}
 
 
 body{
     --themeColor: ;
     background-color: var(--themeColor);
     --themeTextColor: ;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -19,124 +16,5 @@ p{
     color: var(--themeTextColor);
 }
 
-/*--------------------------------------------------------------
-# SECTION 1 
---------------------------------------------------------------*/
 
 
-
-/* MENU CSS */
-
-
-/*  FIN MENU CSS*/
-
-
-
-/* CAROUSEL CSS */
-.carousel_div{
-    /* background-color: rgb(255, 0, 0); */
-}
-
-/* FIN CAROUSEL CSS*/
-
-
-/*--------------------------------------------------------------
-# FIN SECTION 1
---------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------
-# SECTION 2
---------------------------------------------------------------*/
-
-#services{
-    background-color: rgb(55, 0, 255);
-    height: 100vh;
-}
-
-#team{
-    background-color: rgb(255, 0, 212);
-    height: 100vh;
-}
-
-#id_team1{
-    /* background-color: red; */
-    height: 100vh;
-    background-image: url("../images/team/peterano.jpg");
-    /* background-attachment: fixed; */
-    background-size: cover;
-    transition: all 0.5s;
-}
-
-#id_team2{
-    /* background-color: red; */
-    height: 100vh;
-    background-image: url("../images/team/ie.jpg");
-    /* background-attachment: fixed; */
-    background-size: cover;
-    
-}
-
-#id_team3{
-    /* background-color: red; */
-    height: 100vh;
-    background-image: url("../images/team/poetai.jpg");
-    /* background-attachment: fixed; */
-    background-size: cover;
-    
-}
-
-#id_team4{
-    /* background-color: red; */
-    height: 100vh;
-    background-image: url("../images/team/raoulx.jpg");
-    /* background-attachment: fixed; */
-    background-size: cover;
-    
-}
-
-#id_team1:hover{
-    background: none;
-    background-color: red;
-    
-}
-
-#id_team2:hover{
-    background: none;
-    background-color: rgb(238, 255, 0);
-    
-}
-
-#id_team3:hover{
-    background: none;
-    background-color: rgb(21, 255, 0);
-    
-}
-
-#id_team4:hover{
-    background: none;
-    background-color: rgb(0, 0, 0);
-    
-}
-
-
-/*--------------------------------------------------------------
-# FIN SECTION 2
---------------------------------------------------------------*/
-
-
-
-/*--------------------------------------------------------------
-# SECTION 3
---------------------------------------------------------------*/
-
-#footer{
-    background-color: rgb(84, 121, 0);
-    height: 60vh;
-}
-
-
-
-/*--------------------------------------------------------------
-# FIN SECTION 3
---------------------------------------------------------------*/

@@ -1,0 +1,97 @@
+/*--------------------------------------------------------------
+# SECTION 2 - TEAM CSS
+--------------------------------------------------------------*/
+#team{
+    background-image: url(../images/team/bg.jpg);
+    padding: 20px;
+}
+
+#teamInfos{
+    padding-top: 27%;
+    display: none;
+    text-align: center;
+    color:blanchedalmond;
+    justify-content: center;
+    font-family: 'Stick', sans-serif;
+}
+
+#id_team1{
+    /* background-color: red; */
+    height: 50vh;
+    background-image: url("../images/team/peterano.jpg");
+    /* background-attachment: fixed; */
+    background-size: cover;
+    border: 5px solid black;
+
+}
+
+#id_team2{
+    /* background-color: red; */
+    height: 50vh;
+    background-image: url("../images/team/ie.jpg");
+    /* background-attachment: fixed; */
+    background-size: cover;
+    border: 5px solid black;
+    
+}
+
+#id_team3{
+    /* background-color: red; */
+    height: 50vh;
+    background-image: url("../images/team/poetai.jpg");
+    /* background-attachment: fixed; */
+    background-size: cover;
+    border: 5px solid black;
+    
+}
+
+#id_team4{
+    /* background-color: red; */
+    height: 50vh;
+    background-image: url("../images/team/raoulx.jpg");
+    /* background-attachment: fixed; */
+    background-size: cover;
+    border: 5px solid black;
+}
+
+#id_team1:hover{
+    background: none;
+    background-color: rgb(31, 31, 31);
+}
+#id_team1:hover p{
+    display:inherit;
+}
+
+
+#id_team2:hover{
+    background: none;
+    background-color: rgb(31, 31, 31);
+}
+#id_team2:hover p{
+    display: inherit;
+}
+
+
+#id_team3:hover{
+    background: none;
+    background-color: rgb(31, 31, 31);
+}
+#id_team3:hover p{
+    display: inherit;
+}
+
+
+#id_team4:hover{
+    background: none;
+    background-color: rgb(31, 31, 31);
+}
+#id_team4:hover p{
+    display: inherit;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# FIN SECTION 2
+--------------------------------------------------------------*/
